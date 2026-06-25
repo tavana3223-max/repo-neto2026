@@ -3,3 +3,24 @@ p {
   line-height: 1.8;
   color: #f35353;
 }
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px 40px;
+  background: rgb(241, 216, 216);
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+#haupttittle {
+  text-align: center;
+  color: #f26060;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
