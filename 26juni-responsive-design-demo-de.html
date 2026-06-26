@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Damit Mobilgeräte die Seite nicht als Desktop-Seite darstellen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design Demo</title>
+    <link rel="stylesheet" href="26juni-responsive-design-demo-de.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Live-Demo</p>
+        <h1>Responsive Design in der Praxis</h1>
+        <p>
+          Diese Beispielseite zeigt Mobile First, das Box-Modell und einfache
+          Flexbox-Layouts.
+        </p>
+      </header>
+
+      <section class="panel">
+        <h2>Mobile First</h2>
+        <p>
+          Die Basisdarstellung ist für kleine Bildschirme gedacht. Größere
+          Bildschirme bekommen zusätzliche Breite und mehr Spalten.
+        </p>
+      </section>
+
+      <section class="layout">
+        <article class="card main">
+          <h2>Hauptinhalt</h2>
+          <p>
+            Dieser Bereich wächst stärker als die Seitenleiste und zeigt das
+            Flexbox-Prinzip in einer einfachen Zwei-Spalten-Struktur.
+          </p>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/06/20/14/41/website-6351151_1280.jpg"
+            alt="Platzhalterbild für ein responsives Beispiel"
+          />
+        </article>
+
+        <aside class="card sidebar">
+          <h2>Seitenleiste</h2>
+          <p>
+            Die Sidebar bleibt kompakt und ordnet sich auf kleinen Bildschirmen
+            unter dem Inhalt an.
+          </p>
+        </aside>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <h2>Box 1</h2>
+          <p>Padding innen, Margin außen, Border als Rahmen.</p>
+        </article>
+        <article class="card">
+          <h2>Box 2</h2>
+          <p>Die Karten können sich auf kleinen Bildschirmen umbrechen.</p>
+        </article>
+        <article class="card">
+          <h2>Box 3</h2>
+          <p>Mit Flexbox lassen sich Reihen und Spalten flexibel steuern.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
